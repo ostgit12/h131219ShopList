@@ -17,10 +17,11 @@ function addNewItem() {
   const itemTxt = document.querySelector('.itemTxt');
   const rngValue = document.querySelector('.rngBar');
   const itemColor = document.querySelector('.color');
+  const itemPrice = document.querySelector('.itemPrice');
     
-  let myItem = itemTxt.value+" (quantity: "+rngValue.value+", colour: "+itemColor.value+")";
+  let myItem = itemTxt.value+" (quantity: "+rngValue.value+", colour: "
+  +itemColor.value+", price: "+itemPrice.value*rgnValue.value+")";
   itemTxt.value = '';
-
 
   const listItem = document.createElement('li');
   const listText = document.createElement('span');
